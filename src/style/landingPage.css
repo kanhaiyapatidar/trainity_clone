@@ -6,7 +6,7 @@
 }
 .landingPageLeft{
     width: 70%;
-    height:70vh;
+    height:60vh;
     margin-left: 180px;
     margin-top:100px ;
 }
@@ -85,8 +85,9 @@
 }
 
 .landingPageRight{
+    margin-top: 40px;
     width: 40%;
-    height:80vh;
+    height:60vh;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -105,14 +106,15 @@
 @media  (max-width: 890px){
     .landingPage {
         flex-direction: column;
+       
     }
        
     
     .landingPageLeft{
-        width: 100%;
+        width: 95%;
         margin-left: 30px;
         margin-top:30px ;
-        height: 38vh;
+        height: 700px;
     
     }
     .landingPageRight{
@@ -137,6 +139,33 @@
         font-weight: 500;
         font-size: 2.5rem;
       width: 380px;
+    }
+    .btnReguster {
+        background-color: #48BF84;
+        text-decoration: none;
+        color: white;
+        border: none;
+        padding: 0.875rem 2.25rem;
+        font-size: 16px;
+        line-height: 1.5;
+        border-radius: 0.3125rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+        max-width: 288px;
+        cursor: pointer;
+    }
+    .btnExplore {
+        background-color: #0d2129;
+        color: white;
+        text-decoration: none;
+        padding: 0.875rem 2.25rem;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 229px;
+        border-radius: 0.3125rem;
+        cursor: pointer;
     }
     
     }

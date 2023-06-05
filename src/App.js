@@ -3,6 +3,7 @@ import Navbar from './component/Navbar';
 import LandingPage from './component/LandingPage';
 import Topcompanies from './component/Topcompanies';
 import Skills from './component/Skills';
+import Placement from './component/Placement';
  
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <LandingPage/>
       <Topcompanies/>
        <Skills/>
-       
+       <Placement/>
     </div>
   );
 }

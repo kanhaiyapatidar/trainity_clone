@@ -1,0 +1,151 @@
+.placementHeading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.placementHeading > h1 {
+    width: 355px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 50%;
+    margin-top: 25px;
+   
+}
+.swiper-horizontal {
+    touch-action: pan-y;
+}
+.swiper, swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+.placementSectionOne {
+    height: 220px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0.125rem 0.625rem rgb(0 0 0 / 5%);
+    border: 0px !important;
+    text-align: center;
+    font-size: 18px;
+    
+    /* background: #fff; */
+   display: flex;
+   flex-direction: row;
+    
+}
+
+.placementSectionTwo {
+    height: 220px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0.125rem 0.625rem rgb(0 0 0 / 5%);
+    border: 0px !important;
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   display: flex;
+   flex-direction: row;
+    
+     
+    
+    /* box-shadow: 0px 0.2px 5px rgba(0, 0, 0, 0.514); */
+    /* background-color: #a5e9c7; */
+}
+
+.card{
+    border-radius: 20px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: #f2fbf7 !important;
+}
+.company {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    /* margin-top: 3px; */
+    height: auto;
+}
+.linkedin-img {
+    display: inline-block;
+    height: 25px;
+    /* width: auto; */
+    position: relative;
+    top: 10%;
+    left: 35%;
+}
+
+.person-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.person-img {
+    width: 44px !important;
+    height: 44px !important;
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+img {
+    border: 0;
+}
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.person-name {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+    width: 180px;
+}
+
+h6 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-family: Poppins, sans-serif;
+    color: #1f2937;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+@media  (max-width: 890px){
+    .placementHeading > h1 {
+        width: 355px;
+        font-size: 20px;
+        
+    }
+    .placementSectionTwo {
+    
+        margin-left: 40px;
+    
+    }
+    
+    
+}
